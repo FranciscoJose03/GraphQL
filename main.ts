@@ -4,7 +4,7 @@ import { graphSchema } from "./gpl/graphSchema.ts"
 import { rQuery } from "./gpl/query.ts";
 import { rMutation } from "./gpl/mutation.ts";
 import mongoose from "mongoose";
-
+/*
 const MONGO_URL = Deno.env.get("MONGO_URL");
 
 if (!MONGO_URL) {
@@ -13,7 +13,7 @@ if (!MONGO_URL) {
 }
 
 await mongoose.connect(MONGO_URL);
-
+*/
 const resolvers = {
   Query: rQuery,
   Mutation: rMutation
